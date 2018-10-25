@@ -294,6 +294,7 @@ p, li {
 .resume {
     position: relative;
     background: #f3f3f3;
+    padding-top: 5px;
 }
 
 .resume .marker-head i {
@@ -311,6 +312,8 @@ p, li {
 .resume .ex-content {
     width: 94%;
     padding: 18px 16px 0;
+    margin-top: -50px;
+    margin-left: 10px;
 }
 
 .resume .marker {
@@ -338,9 +341,14 @@ p, li {
 
 .education {
 	background: #f3f3f3;
-
+    margin-top: 50px;
 	-webkit-box-shadow: -3px 0px 1px -2px #c8c8c8;
     -moz-box-shadow: -3px 0px 1px -2px #c8c8c8;
     -o-box-shadow: -3px 0px 1px -2px #c8c8c8;
     box-shadow: -3px 0px 1px -2px #c8c8c8;
+}
+
+.resume-header {
+    margin-top: -70px; 
+    margin-left:60px;
 }
